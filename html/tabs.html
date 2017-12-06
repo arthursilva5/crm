@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<title>AdminPlus - Premium Bootstrap Admin Template (v2.0)</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<!-- Bootstrap -->
+	<link href="../common/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../common/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+	
+	<!-- Bootstrap Extended -->
+	<link href="../common/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet">
+	<link href="../common/bootstrap/extend/jasny-bootstrap/css/jasny-bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="../common/bootstrap/extend/bootstrap-wysihtml5/css/bootstrap-wysihtml5-0.0.2.css" rel="stylesheet">
+	
+	<!-- Select2 -->
+	<link rel="stylesheet" href="../common/theme/scripts/plugins/forms/select2/select2.css"/>
+	
+	<!-- Notyfy -->
+	<link rel="stylesheet" href="../common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.css"/>
+	<link rel="stylesheet" href="../common/theme/scripts/plugins/notifications/notyfy/themes/default.css"/>
+	
+	<!-- Gritter Notifications Plugin -->
+	<link href="../common/theme/scripts/plugins/notifications/Gritter/css/jquery.gritter.css" rel="stylesheet" />
+	
+	<!-- JQueryUI v1.9.2 -->
+	<link rel="stylesheet" href="../common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
+	
+	<!-- Glyphicons -->
+	<link rel="stylesheet" href="../common/theme/css/glyphicons.css" />
+	
+	<!-- Bootstrap Extended -->
+	<link rel="stylesheet" href="../common/bootstrap/extend/bootstrap-select/bootstrap-select.css" />
+	<link rel="stylesheet" href="../common/bootstrap/extend/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" />
+	
+	<!-- Uniform -->
+	<link rel="stylesheet" media="screen" href="../common/theme/scripts/plugins/forms/pixelmatrix-uniform/css/uniform.default.css" />
+	
+	<!-- google-code-prettify -->
+	<link href="../common/theme/scripts/plugins/other/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+
+	<!-- JQuery v1.8.2 -->
+	<script src="../common/theme/scripts/plugins/system/jquery-1.8.2.min.js"></script>
+	
+	<!-- Modernizr -->
+	<script src="../common/theme/scripts/plugins/system/modernizr.custom.76094.js"></script>
+	
+	<!-- MiniColors -->
+	<link rel="stylesheet" media="screen" href="../common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.css" />
+	
+	<!-- Theme -->
+	<link rel="stylesheet" href="../common/theme/css/style.css?1370451130" />
+	
+	<!-- LESS 2 CSS -->
+	<script src="../common/theme/scripts/plugins/system/less-1.3.3.min.js"></script>
+	
+</head>
+<body>
+	
+	<!-- Start Content -->
+	<div class="container-fluid fixed">
+		
+		<div class="navbar main hidden-print">
+			
+						
+			<a href="index.html?lang=en" class="appbrand"><span>Admin+ <span>lovely headline here</span></span></a>
+			
+						<button type="button" class="btn btn-navbar">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+						
+			<ul class="topnav pull-right">
+				<li class="visible-desktop">
+					<ul class="notif">
+						<li><a href="" class="glyphicons envelope" data-toggle="tooltip" data-placement="bottom" data-original-title="5 new messages"><i></i> 5</a></li>
+						<li><a href="" class="glyphicons shopping_cart" data-toggle="tooltip" data-placement="bottom" data-original-title="1 new orders"><i></i> 1</a></li>
+						<li><a href="" class="glyphicons log_book" data-toggle="tooltip" data-placement="bottom" data-original-title="3 new activities"><i></i> 3</a></li>
+					</ul>
+				</li>
+				<li class="dropdown visible-desktop">
+					<a href="" data-toggle="dropdown" class="glyphicons cogwheel"><i></i>Dropdown <span class="caret"></span></a>
+					<ul class="dropdown-menu pull-right">
+						<li><a href="">Some option</a></li>
+						<li><a href="">Some other option</a></li>
+						<li><a href="">Other option</a></li>
+					</ul>
+				</li>
+								<li class="hidden-phone"><a href="#themer" data-toggle="collapse" class="glyphicons eyedropper"><i></i><span>Themer</span></a></li>
+								<li class="hidden-phone">
+					<a href="#" data-toggle="dropdown"><img src="../common/theme/images/lang/en.png" alt="en" /></a>
+			    	<ul class="dropdown-menu pull-right">
+			      		<li class="active"><a href="?page=tabs&amp;lang=en" title="English"><img src="../common/theme/images/lang/en.png" alt="English"> English</a></li>
+			      		<li><a href="?page=tabs&amp;lang=ro" title="Romanian"><img src="../common/theme/images/lang/ro.png" alt="Romanian"> Romanian</a></li>
+			      		<li><a href="?page=tabs&amp;lang=it" title="Italian"><img src="../common/theme/images/lang/it.png" alt="Italian"> Italian</a></li>
+			      		<li><a href="?page=tabs&amp;lang=fr" title="French"><img src="../common/theme/images/lang/fr.png" alt="French"> French</a></li>
+			      		<li><a href="?page=tabs&amp;lang=pl" title="Polish"><img src="../common/theme/images/lang/pl.png" alt="Polish"> Polish</a></li>
+			    	</ul>
+				</li>
+				<li class="account">
+										<a data-toggle="dropdown" href="my_account.html?lang=en" class="glyphicons logout lock"><span class="hidden-phone text">mosaicpro</span><i></i></a>
+					<ul class="dropdown-menu pull-right">
+						<li><a href="my-accoutn.html?lang=en" class="glyphicons cogwheel">Settings<i></i></a></li>
+						<li><a href="my_account.html?lang=en" class="glyphicons camera">My Photos<i></i></a></li>
+						<li class="highlight profile">
+							<span>
+								<span class="heading">Profile <a href="my_account.html?lang=en" class="pull-right">edit</a></span>
+								<span class="img"></span>
+								<span class="details">
+									<a href="my_account.html?lang=en">Mosaic Pro</a>
+									contact@mosaicpro.biz
+								</span>
+								<span class="clearfix"></span>
+							</span>
+						</li>
+						<li>
+							<span>
+								<a class="btn btn-default btn-small pull-right" style="padding: 2px 10px; background: #fff;" href="login.html?lang=en">Sign Out</a>
+							</span>
+						</li>
+					</ul>
+									</li>
+			</ul>
+						
+		</div>
+		
+						<div id="wrapper">
+		<div id="menu" class="hidden-phone">
+			<div id="menuInner">
+			
+				<!-- Scrollable menu wrapper with Maximum height -->
+				<div class="slim-scroll" data-scroll-height="420px">
+				
+				<div id="search">
+					<input type="text" placeholder="Quick search ..." />
+					<button class="glyphicons search"><i></i></button>
+				</div>
+				<ul>
+					<li class="heading"><span>Category</span></li>
+					<li class="glyphicons home"><a href="index.html?lang=en"><i></i><span>Dashboard</span></a></li>
+					<li class="hasSubmenu active">
+						<a data-toggle="collapse" class="glyphicons settings" href="#menu_components"><i></i><span>Components</span></a>
+						<ul class="collapse in" id="menu_components">
+							<li class=""><a href="ui.html?lang=en"><span>UI Elements</span></a></li>
+							<li class=" active"><a href="tabs.html?lang=en"><span>Tabs</span></a></li>
+							<li class=""><a href="tables.html?lang=en"><span>Tables</span></a></li>
+							<li class=""><a href="charts.html?lang=en"><span>Charts</span></a></li>
+							<li class=""><a href="widgets.html?lang=en"><span>Widgets</span></a></li>
+							<li class=""><a href="grid.html?lang=en"><span>Grid</span></a></li>
+							<li class=""><a href="icons.html?lang=en"><span>Icons</span></a></li>
+							<li class=""><a href="modals.html?lang=en"><span>Modals</span></a></li>
+							<li class=""><a href="notifications.html?lang=en"><span>Notifications</span></a></li>
+							<li class=""><a href="thumbnails.html?lang=en"><span>Thumbnails</span></a></li>
+							<li class=""><a href="carousels.html?lang=en"><span>Carousels</span></a></li>
+						</ul>
+					</li>
+					<li class="hasSubmenu">
+						<a data-toggle="collapse" class="glyphicons show_thumbnails_with_lines" href="#menu_forms"><i></i><span>Forms</span></a>
+						<ul class="collapse" id="menu_forms">
+							<li class=""><a href="form_wizards.html?lang=en"><span>Form Wizards</span></a></li>
+							<li class=""><a href="form_elements.html?lang=en"><span>Form Elements</span></a></li>
+							<li class=""><a href="form_validator.html?lang=en"><span>Form Validator</span></a></li>
+							<li class=""><a href="file_managers.html?lang=en"><span>File Managers</span></a></li>
+						</ul>
+					</li>
+					<li class="hasSubmenu">
+						<a data-toggle="collapse" class="glyphicons group" href="#menu_account"><i></i><span>My Account</span></a>
+						<ul class="collapse" id="menu_account">
+							<li class=""><a href="my_account.html?lang=en"><span>Edit account</span></a></li>
+							<li class=""><a href="my_account_advanced.html?lang=en"><span>Advanced profile</span></a></li>
+						</ul>
+					</li>
+					<li class="glyphicons notes"><a href="landing_page.html?lang=en"><i></i><span>Landing page</span></a></li>
+					<li class="glyphicons table"><a href="pricing_tables.html?lang=en"><i></i><span>Pricing tables</span></a></li>
+					<li class="glyphicons comments"><a href="faq.html?lang=en"><i></i><span>FAQ</span></a></li>
+					<li class="glyphicons credit_card"><a href="invoice.html?lang=en"><i></i><span>Invoice</span></a></li>
+					<li class="glyphicons calendar"><a href="calendar.html?lang=en"><i></i><span>Calendar</span></a></li>
+					<li class="glyphicons user"><a href="login.html?lang=en"><i></i><span>Login</span></a></li>
+					<li class="glyphicons warning_sign"><a href="error.html?lang=en"><i></i><span>Error page</span></a></li>
+				</ul>
+				<ul>
+					<li class="heading"><span>Sections</span></li>
+					<li class="glyphicons coins"><a href="finances.html?lang=en"><i></i><span>Finances</span></a></li>
+					<li class="hasSubmenu">
+						<a data-toggle="collapse" class="glyphicons shopping_cart" href="#menu_ecommerce"><i></i><span>Online Shop</span></a>
+						<ul class="collapse" id="menu_ecommerce">
+							<li class=""><a href="products.html?lang=en"><span>Products</span></a></li>
+							<li class=""><a href="product_edit.html?lang=en"><span>Add product</span></a></li>
+						</ul>
+					</li>
+					<li class="glyphicons sort"><a href="pages.html?lang=en"><i></i><span>Site Pages</span></a></li>
+					<li class="glyphicons picture"><a href="gallery.html?lang=en"><i></i><span>Photo Gallery</span></a></li>
+					<li class="glyphicons adress_book"><a href="bookings.html?lang=en"><i></i><span>Bookings</span></a></li>
+				</ul>
+			</div>
+			
+			</div>
+			<!-- // Nice Scroll Wrapper END -->
+			
+		</div>
+				
+		<div id="content">
+		<ul class="breadcrumb">
+	<li><a href="index.html?lang=en" class="glyphicons home"><i></i> AdminPlus</a></li>
+	<li class="divider"></li>
+	<li>Components</li>
+	<li class="divider"></li>
+	<li>Tabs</li>
+</ul>
+<div class="separator bottom"></div>
+
+<!-- Heading -->
+<div class="heading-buttons">
+	<h3 class="glyphicons show_thumbnails"><i></i>Tabs <span>in 8 awesome styles</span></h3>
+	<div class="buttons pull-right">
+		<a href="" class="btn btn-source-toggle btn-default btn-icon glyphicons embed_close"><i></i>View source toggle</a>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="separator bottom"></div>
+<!-- // Heading END -->
+
+<div class="innerLR">
+
+	<!-- Tabs -->
+	<div class="widget widget-2 widget-tabs widget-tabs-2">
+		<div class="widget-head">
+			<ul>
+				<li class="active"><a class="glyphicons cardio" href="#website-traffic-tab" data-toggle="tab"><i></i>Website Traffic</a></li>
+				<li><a class="glyphicons cardio" href="#website-traffic-tab2" data-toggle="tab"><i></i>Secondary Tab</a></li>
+			</ul>
+		</div>
+		<div class="widget-body">
+			<div class="tab-content">
+				<div class="tab-pane active" id="website-traffic-tab">
+					<h5>Tab content #1</h5>
+					<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id eros a orci adipiscing accumsan id eget sem. Etiam sit amet neque ligula, ac hendrerit metus. Phasellus convallis nulla nec leo dapibus sed feugiat felis feugiat. Nulla facilisi. Mauris quis tortor eu eros posuere tristique. In turpis leo, iaculis eget tincidunt in, gravida sit amet diam. Vivamus viverra, nisl vitae consectetur volutpat, ipsum risus tempor augue, in convallis leo massa in sem. Maecenas in urna quis purus pulvinar posuere. Fusce blandit viverra placerat. Fusce elementum turpis sed velit blandit elementum.</p>
+				</div>
+				<div class="tab-pane" id="website-traffic-tab2">
+					<h5>Tab content #2</h5>
+					<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id eros a orci adipiscing accumsan id eget sem. Etiam sit amet neque ligula, ac hendrerit metus. Phasellus convallis nulla nec leo dapibus sed feugiat felis feugiat. Nulla facilisi. Mauris quis tortor eu eros posuere tristique. In turpis leo, iaculis eget tincidunt in, gravida sit amet diam. Vivamus viverra, nisl vitae consectetur volutpat, ipsum risus tempor augue, in convallis leo massa in sem. Maecenas in urna quis purus pulvinar posuere. Fusce blandit viverra placerat. Fusce elementum turpis sed velit blandit elementum.</p>
+				</div>
+			</div>
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-20"><i></i> Source</span>
+	</div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-20">
+<pre class="prettyprint lang-html">
+&lt;div class="widget widget-2 widget-tabs widget-tabs-2"&gt;
+	&lt;div class="widget-head"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a class="glyphicons cardio" href="#website-traffic-tab" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;Website Traffic&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons cardio" href="#website-traffic-tab2" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;Secondary Tab&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div class="tab-pane active" id="website-traffic-tab"&gt;
+				&lt;h5&gt;Tab content #1&lt;/h5&gt;
+				&lt;p&gt;Class aptent taciti sociosqu  ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="website-traffic-tab2"&gt;
+				&lt;h5&gt;Tab content #2&lt;/h5&gt;
+				&lt;p&gt;Class aptent taciti sociosqu ...&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+
+	<!-- Tabs -->
+	<div class="widget widget-2 widget-tabs widget-tabs-double-2">
+	
+		<!-- Tabs Heading -->
+		<div class="widget-head">
+			<ul>
+				<li class="active"><a class="glyphicons list" href="#tabAll" data-toggle="tab"><i></i><span>All topics</span></a></li>
+				<li><a class="glyphicons user" href="#tabAccount" data-toggle="tab"><i></i><span>Account</span></a></li>
+				<li><a class="glyphicons credit_card" href="#tabPayments" data-toggle="tab"><i></i><span>Payments</span></a></li>
+				<li><a class="glyphicons cogwheel" href="#tabSupport" data-toggle="tab"><i></i><span>Technical Support</span></a></li>
+				<li><a class="glyphicons snowflake" href="#tabFeatures" data-toggle="tab"><i></i><span>Features</span></a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="widget-body">
+			<div class="tab-content">
+			
+				<!-- Tab content -->
+				<div id="tabAll" class="tab-pane active widget-body-regular">
+					<h5>All topics tab content</h5>
+					<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id eros a orci adipiscing accumsan id eget sem. Etiam sit amet neque ligula, ac hendrerit metus. Phasellus convallis nulla nec leo dapibus sed feugiat felis feugiat. Nulla facilisi. Mauris quis tortor eu eros posuere tristique. In turpis leo, iaculis eget tincidunt in, gravida sit amet diam. Vivamus viverra, nisl vitae consectetur volutpat, ipsum risus tempor augue, in convallis leo massa in sem. Maecenas in urna quis purus pulvinar posuere. Fusce blandit viverra placerat. Fusce elementum turpis sed velit blandit elementum.</p>
+				</div>
+				<!-- // Tab content END -->
+			
+				<!-- Tab content -->
+				<div id="tabAccount" class="tab-pane widget-body-regular">
+					<h5>Account tab content</h5>
+					<p>Donec at nunc dui. Integer eget sem sit amet arcu bibendum elementum vel sit amet risus. Fusce libero lorem, fermentum vitae lacinia dapibus, vestibulum ac enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum accumsan risus sed lorem tincidunt eget faucibus sapien tempor. Proin ac feugiat dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tabPayments" class="tab-pane widget-body-regular">
+					<h5>Payments tab content</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante est, tempor ut posuere nec, venenatis sed arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis in purus ut mauris sodales sollicitudin. Mauris cursus imperdiet dignissim. Phasellus risus felis, rutrum in laoreet vel, posuere vel dolor. Sed venenatis vehicula tempus. Nam at rutrum enim. Sed massa quam, mattis in viverra ut, ullamcorper et massa. Phasellus sapien diam, faucibus ac tempor a, condimentum quis est. Donec nec velit ante, vel mattis metus. Ut nec libero diam, id auctor sapien. Suspendisse eget lorem ante, in fringilla dui. In hac habitasse platea dictumst.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tabSupport" class="tab-pane widget-body-regular">
+					<h5>Support tab content</h5>
+					<p>Integer porttitor, enim eu egestas ullamcorper, odio mauris semper quam, in facilisis dui ligula eget ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dolor leo, consectetur nec tristique pretium, ornare quis purus. Nullam pulvinar, enim eu molestie venenatis, turpis nisl vehicula eros, et ultricies risus urna sed diam. Suspendisse potenti. Nullam tincidunt tellus nisi. Aenean felis eros, congue vitae hendrerit id, mattis quis mi.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tabFeatures" class="tab-pane widget-body-regular">
+					<h5>Features tab content</h5>
+					<p>Nunc aliquet lacus laoreet odio consectetur tempus. In id nisl diam, congue vehicula sapien. Nulla facilisi. Donec sagittis cursus sollicitudin. Aenean leo tellus, eleifend quis facilisis vel, tempus ac elit. Nam eget turpis nec erat vestibulum fringilla. Donec et felis ipsum. Fusce feugiat ultricies lacus a ultrices. Nunc ultrices, orci ut convallis pulvinar, diam nunc tincidunt augue, sit amet lacinia ante mi a augue. Sed feugiat, neque eget porttitor varius, tellus nisi sollicitudin libero, nec aliquam ante dui gravida ipsum. Fusce cursus rhoncus lectus, quis malesuada sapien facilisis eu. Aenean vitae massa sed urna condimentum porttitor ac at risus.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+			</div>
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-6"><i></i> Source</span>
+	</div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-6">
+<pre class="prettyprint lang-html">
+&lt;div class="widget widget-tabs widget-tabs-double-2"&gt;
+	&lt;div class="widget-head"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a class="glyphicons list" href="#tabAll" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;All topics&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons user" href="#tabAccount" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;Account&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons credit_card" href="#tabPayments" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;Payments&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons cogwheel" href="#tabSupport" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;Technical Support&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons snowflake" href="#tabFeatures" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span&gt;Features&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div id="tabAll" class="tab-pane active widget-body-regular"&gt;
+				&lt;h5&gt;All topics tab content&lt;/h5&gt;
+				&lt;p&gt;Class aptent taciti sociosqu ad litora ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tabAccount" class="tab-pane widget-body-regular"&gt;
+				&lt;h5&gt;Account tab content&lt;/h5&gt;
+				&lt;p&gt;Donec at nunc dui. Integer eget sem sit amet arcu ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tabPayments" class="tab-pane widget-body-regular"&gt;
+				&lt;h5&gt;Payments tab content&lt;/h5&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tabSupport" class="tab-pane widget-body-regular"&gt;
+				&lt;h5&gt;Support tab content&lt;/h5&gt;
+				&lt;p&gt;Integer porttitor, enim eu egestas ullamcorper ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tabFeatures" class="tab-pane widget-body-regular"&gt;
+				&lt;h5&gt;Features tab content&lt;/h5&gt;
+				&lt;p&gt;Nunc aliquet lacus laoreet odio consectetur tempus ...&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+	
+	<!-- Tabs -->
+	<div class="box-generic">
+	
+		<!-- Tabs Heading -->
+		<div class="tabsbar">
+			<ul>
+				<li class="glyphicons camera active"><a href="#tab1-3" data-toggle="tab"><i></i> View all photos <strong>(43)</strong></a></li>
+				<li class="glyphicons folder_open"><a href="#tab2-3" data-toggle="tab"><i></i> Albums <strong>(3)</strong></a></li>
+				<li class="glyphicons circle_plus tab-stacked"><a href="#tab3-3" data-toggle="tab"><i></i> <span>Add Photos</span></a></li>
+				<li class="glyphicons folder_plus tab-stacked"><a href="#tab4-3" data-toggle="tab"><i></i> <span>Create Album</span></a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="tab-content">
+				
+			<!-- Tab content -->
+			<div class="tab-pane active" id="tab1-3">
+				<h4>First tab</h4>
+				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab2-3">
+				<h4>Second tab</h4>
+				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab3-3">
+				<h4>Third tab</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab4-3">
+				<h4>Fourth tab</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-4"><i></i> Source</span>
+	</div>
+	<div class="separator bottom"></div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-4">
+<pre class="prettyprint lang-html">
+&lt;div class="tabsbar"&gt;
+	&lt;ul&gt;
+		&lt;li class="glyphicons camera active"&gt;&lt;a href="#tab1-3" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; View all photos &lt;strong&gt;(43)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="glyphicons folder_open"&gt;&lt;a href="#tab2-3" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Albums &lt;strong&gt;(3)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="glyphicons circle_plus"&gt;&lt;a href="#tab3-3" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; &lt;span&gt;Add Photos&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="glyphicons folder_plus"&gt;&lt;a href="#tab4-3" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; &lt;span&gt;Create Album&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane active" id="tab1-3"&gt;
+		&lt;h4&gt;First tab&lt;/h4&gt;
+		&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab2-3"&gt;
+		&lt;h4&gt;Second tab&lt;/h4&gt;
+		&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab3-3"&gt;
+		&lt;h4&gt;Third tab&lt;/h4&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab4-3"&gt;
+		&lt;h4&gt;Fourth tab&lt;/h4&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+	
+	<!-- Tabs -->
+	<div class="box-generic">
+	
+		<!-- Tabs Heading -->
+		<div class="tabsbar tabsbar-2">
+			<ul>
+				<li class="glyphicons cargo active"><a href="#tab1-4" data-toggle="tab"><i></i> Product Listing</a></li>
+				<li class="glyphicons circle_info"><a href="#tab2-4" data-toggle="tab"><i></i> <span>Product Details</span></a></li>
+				<li class="glyphicons cart_in"><a href="#tab3-4" data-toggle="tab"><i></i> <span>Shopping Cart</span></a></li>
+				<li class="glyphicons pencil"><a href="#tab4-4" data-toggle="tab"><i></i> <span>Shop Management</span></a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="tab-content">
+				
+			<!-- Tab content -->
+			<div class="tab-pane active" id="tab1-4">
+				<h4>First tab</h4>
+				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab2-4">
+				<h4>Second tab</h4>
+				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab3-4">
+				<h4>Third tab</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+			<!-- Tab content -->
+			<div class="tab-pane" id="tab4-4">
+				<h4>Fourth tab</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+			</div>
+			<!-- // Tab content END -->
+			
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-5"><i></i> Source</span>
+	</div>
+	<div class="separator bottom"></div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-5">
+<pre class="prettyprint lang-html">
+&lt;div class="tabsbar tabsbar-2"&gt;
+	&lt;ul class="row-fluid row-merge"&gt;
+		&lt;li class="span3 glyphicons cargo active"&gt;&lt;a href="#tab1-4" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Product Listing&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="span3 glyphicons circle_info"&gt;&lt;a href="#tab2-4" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Product Details&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="span3 glyphicons cart_in"&gt;&lt;a href="#tab3-4" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Shopping Cart&lt;/a&gt;&lt;/li&gt;
+		&lt;li class="span3 glyphicons pencil"&gt;&lt;a href="#tab4-4" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Shop Management&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-pane active" id="tab1-4"&gt;
+		&lt;h4&gt;First tab&lt;/h4&gt;
+		&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab2-4"&gt;
+		&lt;h4&gt;Second tab&lt;/h4&gt;
+		&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab3-4"&gt;
+		&lt;h4&gt;Third tab&lt;/h4&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class="tab-pane" id="tab4-4"&gt;
+		&lt;h4&gt;Fourth tab&lt;/h4&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+
+	<!-- Tabs -->
+	<div class="widget widget-2 widget-tabs">
+	
+		<!-- Tabs Heading -->
+		<div class="widget-head">
+			<ul>
+				<li class="active"><a class="glyphicons coffe_cup" href="#tab-1" data-toggle="tab"><i></i>Active tab</a></li>
+				<li><a class="glyphicons share_alt" href="#tab-2" data-toggle="tab"><i></i>Other tab</a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="widget-body">
+			<div class="tab-content">
+			
+				<!-- Tab content -->
+				<div class="tab-pane active" id="tab-1">
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab-2">
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+			</div>
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-1"><i></i> Source</span>
+	</div>
+	<!-- // Tabs END -->
+
+<!-- Code sample -->
+<div class="code hide" id="code-1">
+<pre class="prettyprint lang-html">
+&lt;div class="widget widget-2 widget-tabs"&gt;
+	&lt;div class="widget-head"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a class="glyphicons coffe_cup" href="#tab-1" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Active tab&lt;/li&gt;
+			&lt;li&gt;&lt;a class="glyphicons share_alt" href="#tab-2" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt; Other tab&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div class="tab-pane active" id="tab-1"&gt;
+				&lt;p>Anim pariatur cliche reprehenderit ... &lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab-2"&gt;
+				&lt;p>Anim pariatur cliche reprehenderit ... &lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+
+	<!-- Tabs -->
+	<div class="widget widget-tabs widget-tabs-double widget-tabs-vertical row-fluid">
+	
+		<!-- Tabs Heading -->
+		<div class="widget-head span3">
+			<ul>
+				<li class="active"><a href="#tab1-1" class="glyphicons user" data-toggle="tab"><i></i><span class="strong">Step 1</span><span>Personal details</span></a></li>
+				<li><a href="#tab2-1" class="glyphicons calculator" data-toggle="tab"><i></i><span class="strong">Step 2</span><span>Billing details</span></a></li>
+				<li><a href="#tab3-1" class="glyphicons credit_card" data-toggle="tab"><i></i><span class="strong">Step 3</span><span>Payment</span></a></li>
+				<li><a href="#tab4-1" class="glyphicons circle_ok" data-toggle="tab"><i></i><span class="strong">Step 4</span><span>Confirmation</span></a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="widget-body span9">
+			<div class="tab-content">
+			
+				<!-- Tab content -->
+				<div class="tab-pane active" id="tab1-1">
+					<h4>First tab</h4>
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab2-1">
+					<h4>Second tab</h4>
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab3-1">
+					<h4>Third tab</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab4-1">
+					<h4>Fourth tab</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+			</div>
+			
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-2"><i></i> Source</span>
+	</div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-2">
+<pre class="prettyprint lang-html">
+&lt;div class="widget widget-tabs widget-tabs-double widget-tabs-vertical row-fluid row-merge"&gt;
+	&lt;div class="widget-head span3"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a href="#tab1-1" class="glyphicons user" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 1&lt;/span&gt;&lt;span&gt;Personal details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab2-1" class="glyphicons calculator" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 2&lt;/span&gt;&lt;span&gt;Billing details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab3-1" class="glyphicons credit_card" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 3&lt;/span&gt;&lt;span&gt;Payment&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab4-1" class="glyphicons circle_ok" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 4&lt;/span&gt;&lt;span&gt;Confirmation&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body span9"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div class="tab-pane active" id="tab1-1"&gt;
+				&lt;h4&gt;First tab&lt;/h4&gt;
+				&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab2-1"&gt;
+				&lt;h4&gt;Second tab&lt;/h4&gt;
+				&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab3-1"&gt;
+				&lt;h4&gt;Third tab&lt;/h4&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab4-1"&gt;
+				&lt;h4&gt;Fourth tab&lt;/h4&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+	
+	<!-- Tabs -->
+	<div class="widget widget-tabs widget-tabs-double">
+	
+		<!-- Tabs Heading -->
+		<div class="widget-head">
+			<ul>
+				<li class="active"><a href="#tab1-2" class="glyphicons user" data-toggle="tab"><i></i><span class="strong">Step 1</span><span>Personal details</span></a></li>
+				<li><a href="#tab2-2" class="glyphicons calculator" data-toggle="tab"><i></i><span class="strong">Step 2</span><span>Billing details</span></a></li>
+				<li><a href="#tab3-2" class="glyphicons credit_card" data-toggle="tab"><i></i><span class="strong">Step 3</span><span>Payment</span></a></li>
+				<li><a href="#tab4-2" class="glyphicons circle_ok" data-toggle="tab"><i></i><span class="strong">Step 4</span><span>Confirmation</span></a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="widget-body">
+			<div class="tab-content">
+			
+				<!-- Tab content -->
+				<div class="tab-pane active" id="tab1-2">
+					<h4>First tab</h4>
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab2-2">
+					<h4>Second tab</h4>
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab3-2">
+					<h4>Third tab</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div class="tab-pane" id="tab4-2">
+					<h4>Fourth tab</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices libero vel massa egestas facilisis. Mauris convallis augue nec dolor dignissim vestibulum. Praesent imperdiet elit posuere arcu posuere consectetur. Morbi dignissim eleifend nibh, eget tincidunt nibh dignissim hendrerit. Cras iaculis congue lorem, eget gravida augue vehicula sed. Nam lorem sem, consectetur ac tempus quis, consectetur ut lectus. In bibendum luctus pharetra. Morbi lacinia sem sem. Phasellus quis tellus magna.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+			</div>
+			
+		</div>
+		<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-3"><i></i> Source</span>
+	</div>
+	<!-- // Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-3">
+<pre class="prettyprint lang-html">
+&lt;div class="widget widget-tabs widget-tabs-double"&gt;
+	&lt;div class="widget-head"&gt;
+		&lt;ul&gt;
+			&lt;li class="active"&gt;&lt;a href="#tab1-2" class="glyphicons user" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 1&lt;/span&gt;&lt;span&gt;Personal details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab2-2" class="glyphicons calculator" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 2&lt;/span&gt;&lt;span&gt;Billing details&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab3-2" class="glyphicons credit_card" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 3&lt;/span&gt;&lt;span&gt;Payment&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#tab4-2" class="glyphicons circle_ok" data-toggle="tab"&gt;&lt;i&gt;&lt;/i&gt;&lt;span class="strong"&gt;Step 4&lt;/span&gt;&lt;span&gt;Confirmation&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div class="tab-pane active" id="tab1-2"&gt;
+				&lt;h4&gt;First tab&lt;/h4&gt;
+				&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab2-2"&gt;
+				&lt;h4&gt;Second tab&lt;/h4&gt;
+				&lt;p&gt;Anim pariatur cliche reprehenderit ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab3-2"&gt;
+				&lt;h4&gt;Third tab&lt;/h4&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="tab-pane" id="tab4-2"&gt;
+				&lt;h4&gt;Fourth tab&lt;/h4&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+
+	<!-- Icon-only Tabs -->
+	<div class="widget widget-tabs-icons-only">
+	
+		<!-- Widget Heading -->
+		<div class="widget-head">
+			<h4 class="heading">Tabs from Icons</h4>
+			
+			<!-- Tabs -->
+			<ul class="pull-right">
+				<li>Filter by</li>
+				<li class="glyphicons user_add active"><span data-toggle="tab" data-target="#tab1-5"><i></i></span></li>
+				<li class="glyphicons shopping_cart"><span data-toggle="tab" data-target="#tab2-5"><i></i></span></li>
+				<li class="glyphicons envelope"><span data-toggle="tab" data-target="#tab3-5"><i></i></span></li>
+				<li class="glyphicons link"><span data-toggle="tab" data-target="#tab4-5"><i></i></span></li>
+				<li class="glyphicons camera"><span data-toggle="tab" data-target="#tab5-5"><i></i></span></li>
+			</ul>
+			<div class="clearfix"></div>
+			<!-- // Tabs END -->
+			
+		</div>
+		<!-- Widget Heading END -->
+		
+		<div class="widget-body">
+			<div class="tab-content">
+			
+				<!-- Tab content -->
+				<div id="tab1-5" class="tab-pane active box-generic">
+					<h4>Tab #1 content heading</h4>
+					<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id eros a orci adipiscing accumsan id eget sem. Etiam sit amet neque ligula, ac hendrerit metus. Phasellus convallis nulla nec leo dapibus sed feugiat felis feugiat. Nulla facilisi. Mauris quis tortor eu eros posuere tristique. In turpis leo, iaculis eget tincidunt in, gravida sit amet diam. Vivamus viverra, nisl vitae consectetur volutpat, ipsum risus tempor augue, in convallis leo massa in sem. Maecenas in urna quis purus pulvinar posuere. Fusce blandit viverra placerat. Fusce elementum turpis sed velit blandit elementum.</p>
+				</div>
+				<!-- // Tab content END -->
+			
+				<!-- Tab content -->
+				<div id="tab2-5" class="tab-pane box-generic">
+					<h4>Tab #2 content heading</h4>
+					<p>Donec at nunc dui. Integer eget sem sit amet arcu bibendum elementum vel sit amet risus. Fusce libero lorem, fermentum vitae lacinia dapibus, vestibulum ac enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum accumsan risus sed lorem tincidunt eget faucibus sapien tempor. Proin ac feugiat dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tab3-5" class="tab-pane box-generic">
+					<h4>Tab #3 content heading</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante est, tempor ut posuere nec, venenatis sed arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis in purus ut mauris sodales sollicitudin. Mauris cursus imperdiet dignissim. Phasellus risus felis, rutrum in laoreet vel, posuere vel dolor. Sed venenatis vehicula tempus. Nam at rutrum enim. Sed massa quam, mattis in viverra ut, ullamcorper et massa. Phasellus sapien diam, faucibus ac tempor a, condimentum quis est. Donec nec velit ante, vel mattis metus. Ut nec libero diam, id auctor sapien. Suspendisse eget lorem ante, in fringilla dui. In hac habitasse platea dictumst.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tab4-5" class="tab-pane box-generic">
+					<h4>Tab #4 content heading</h4>
+					<p>Integer porttitor, enim eu egestas ullamcorper, odio mauris semper quam, in facilisis dui ligula eget ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dolor leo, consectetur nec tristique pretium, ornare quis purus. Nullam pulvinar, enim eu molestie venenatis, turpis nisl vehicula eros, et ultricies risus urna sed diam. Suspendisse potenti. Nullam tincidunt tellus nisi. Aenean felis eros, congue vitae hendrerit id, mattis quis mi.</p>
+				</div>
+				<!-- // Tab content END -->
+				
+				<!-- Tab content -->
+				<div id="tab5-5" class="tab-pane box-generic">
+					<h4>Tab #5 content heading</h4>
+					<p>Nunc aliquet lacus laoreet odio consectetur tempus. In id nisl diam, congue vehicula sapien. Nulla facilisi. Donec sagittis cursus sollicitudin. Aenean leo tellus, eleifend quis facilisis vel, tempus ac elit. Nam eget turpis nec erat vestibulum fringilla. Donec et felis ipsum. Fusce feugiat ultricies lacus a ultrices. Nunc ultrices, orci ut convallis pulvinar, diam nunc tincidunt augue, sit amet lacinia ante mi a augue. Sed feugiat, neque eget porttitor varius, tellus nisi sollicitudin libero, nec aliquam ante dui gravida ipsum. Fusce cursus rhoncus lectus, quis malesuada sapien facilisis eu. Aenean vitae massa sed urna condimentum porttitor ac at risus.</p>
+				</div>
+				<!-- // Tab content END -->
+			
+			</div>
+			<span class="btn btn-toggle-code btn-mini btn-primary btn-icon glyphicons embed_close" data-toggle="hide" data-target="#code-7"><i></i> Source</span>
+		</div>
+	</div>
+	<!-- // Icon-only Tabs END -->
+	
+<!-- Code sample -->
+<div class="code hide" id="code-7">
+<div class="separator bottom"></div>
+<pre class="prettyprint lang-html margin-bottom-none">
+&lt;div class="widget widget-4 widget-tabs-icons-only"&gt;
+	&lt;div class="widget-head"&gt;
+		&lt;h4 class="heading"&gt;Heading&lt;/h4&gt;
+		&lt;ul class="pull-right"&gt;
+			&lt;li&gt;Filter by&lt;/li&gt;
+			&lt;li class="glyphicons user_add active"&gt;&lt;span data-toggle="tab" data-target="#tab1-5"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+			&lt;li class="glyphicons shopping_cart"&gt;&lt;span data-toggle="tab" data-target="#tab2-5"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+			&lt;li class="glyphicons envelope"&gt;&lt;span data-toggle="tab" data-target="#tab3-5"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+			&lt;li class="glyphicons link"&gt;&lt;span data-toggle="tab" data-target="#tab4-5"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+			&lt;li class="glyphicons camera"&gt;&lt;span data-toggle="tab" data-target="#tab5-5"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;div class="clearfix"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="widget-body"&gt;
+		&lt;div class="tab-content"&gt;
+			&lt;div id="tab1-5" class="tab-pane active box-generic"&gt;
+				&lt;h4&gt;Tab #1 content heading&lt;/h4&gt;
+				&lt;p&gt;Class aptent taciti sociosqu ad ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tab2-5" class="tab-pane box-generic"&gt;
+				&lt;h4&gt;Tab #2 content heading&lt;/h4&gt;
+				&lt;p&gt;Donec at nunc dui. Integer eget ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tab3-5" class="tab-pane box-generic"&gt;
+				&lt;h4&gt;Tab #3 content heading&lt;/h4&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tab4-5" class="tab-pane box-generic"&gt;
+				&lt;h4&gt;Tab #4 content heading&lt;/h4&gt;
+				&lt;p&gt;Integer porttitor, enim eu egestas ...&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div id="tab5-5" class="tab-pane box-generic"&gt;
+				&lt;h4&gt;Tab #5 content heading&lt;/h4&gt;
+				&lt;p&gt;Nunc aliquet lacus laoreet odio ...&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<!-- // Code sample END -->
+	
+</div>		
+				<!-- End Content -->
+		</div>
+		
+				<!-- End Wrapper -->
+		</div>
+		
+		<!-- Sticky Footer -->
+		<div id="footer" class="visible-desktop">
+	      	<div class="wrap">
+	      		<ul>
+	      			<li class="dropdown dropup">
+	      				<span data-toggle="dropdown" class="dropdown-toggle glyphicons cogwheel text" title=""><i></i><span class="hidden-phone">Layout Options</span></span>
+	      				<ul class="dropdown-menu pull-left">
+	      					<li class="active"><a href="#" data-toggle="layout" data-layout="fixed" title="">Fixed layout</a></li>
+	      					<li><a href="#" data-toggle="layout" data-layout="fluid" title="">Fluid layout</a></li>
+	      				</ul>
+	      			</li>
+	      			<li class="dropdown dropup">
+	      				<span data-toggle="dropdown" class="dropdown-toggle glyphicons settings text" title=""><i></i><span class="hidden-phone">Menu Options</span></span>
+	      				<ul class="dropdown-menu pull-left">
+	      					<li class="active"><a href="#" data-toggle="menuPosition" data-menuPosition="left-menu" title="">Left menu</a></li>
+	      					<li><a href="#" data-toggle="menuPosition" data-menuPosition="right-menu" title="">Right menu</a></li>
+	      				</ul>
+	      			</li>
+	      			<li><a href="documentation.html?lang=en" class="glyphicons circle_question_mark text" title=""><i></i><span class="hidden-phone">Documentation</span></a></li>
+	      		</ul>
+	      	</div>
+	    </div>
+	    				
+	</div>
+	
+	<div id="themer" class="collapse">
+		<div class="wrapper">
+			<span class="close2">&times; close</span>
+			<h4>Themer <span>color options</span></h4>
+			<ul>
+				<li>Theme: <select id="themer-theme" class="pull-right"></select><div class="clearfix"></div></li>
+				<li>Primary Color: <input type="text" data-type="minicolors" data-default="#ffffff" data-slider="hue" data-textfield="false" data-position="left" id="themer-primary-cp" /><div class="clearfix"></div></li>
+				<li>
+					<span class="link" id="themer-custom-reset">reset theme</span>
+					<span class="pull-right"><label>advanced <input type="checkbox" value="1" id="themer-advanced-toggle" /></label></span>
+				</li>
+			</ul>
+			<div id="themer-getcode" class="hide">
+				<hr class="separator" />
+				<button class="btn btn-primary btn-small pull-right btn-icon glyphicons download" id="themer-getcode-less"><i></i>Get LESS</button>
+				<button class="btn btn-inverse btn-small pull-right btn-icon glyphicons download" id="themer-getcode-css"><i></i>Get CSS</button>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- JQueryUI v1.9.2 -->
+	<script src="../common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js"></script>
+	
+	<!-- JQueryUI Touch Punch -->
+	<!-- small hack that enables the use of touch events on sites using the jQuery UI user interface library -->
+	<script src="../common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	
+	<!-- MiniColors -->
+	<script src="../common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js"></script>
+	
+	<!-- Select2 -->
+	<script src="../common/theme/scripts/plugins/forms/select2/select2.js"></script>
+	
+	<!-- jQuery Slim Scroll Plugin -->
+	<script src="../common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js"></script>
+	
+	<!-- Common Demo Script -->
+	<script src="../common/theme/scripts/demo/common.js?1370451130"></script>
+	
+	<!-- Holder Plugin -->
+	<script src="../common/theme/scripts/plugins/other/holder/holder.js"></script>
+	<script>Holder.add_theme("dark", {background:"#000", foreground:"#aaa", size:9})</script>
+	
+	<!-- Twitter Feed -->
+	<script src="../common/theme/scripts/demo/twitter.js"></script>
+	
+	<!-- Colors -->
+	<script>
+	var primaryColor = '#4a8bc2',
+		dangerColor = '#b55151',
+		successColor = '#609450',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	</script>
+	
+	<!-- Themer -->
+	<script>
+	var themerPrimaryColor = '#DA4C4C';
+	</script>
+	<script src="../common/theme/scripts/plugins/system/jquery.cookie.js"></script>
+	<script src="../common/theme/scripts/demo/themer.js"></script>
+	
+	<!-- Global -->
+	<script>
+	var basePath = '',
+		commonPath = '../common/',
+
+		
+		// charts data
+		charts_data = {
+			
+			// 24 hours
+			graph24hours: {
+				from: 1370210400000,
+				to: 1370296800000			},
+
+			// 7 days
+			graph7days: {
+				from: 1369692000000,
+				to: 1370296800000			},
+
+			// 14 days
+			graph14days: {
+				from: 1369087200000,
+				to: 1370296800000			},
+
+			// main dashboard graph - website traffic
+			website_traffic: {
+				d1: [[1367791200000, 2829],[1367877600000, 2346],[1367964000000, 3100],[1368050400000, 3647],[1368136800000, 3320],[1368223200000, 3313],[1368309600000, 3117],[1368396000000, 2373],[1368482400000, 2215],[1368568800000, 2510],[1368655200000, 2188],[1368741600000, 3992],[1368828000000, 2645],[1368914400000, 2908],[1369000800000, 3505],[1369087200000, 2043],[1369173600000, 2894],[1369260000000, 2083],[1369346400000, 3676],[1369432800000, 3411],[1369519200000, 3570],[1369605600000, 2638],[1369692000000, 2385],[1369778400000, 3489],[1369864800000, 2727],[1369951200000, 2417],[1370037600000, 3100],[1370124000000, 3332],[1370210400000, 2045],[1370296800000, 3048]],
+				d2: [[1367791200000, 516],[1367877600000, 519],[1367964000000, 455],[1368050400000, 471],[1368136800000, 527],[1368223200000, 455],[1368309600000, 487],[1368396000000, 547],[1368482400000, 431],[1368568800000, 501],[1368655200000, 555],[1368741600000, 493],[1368828000000, 594],[1368914400000, 664],[1369000800000, 552],[1369087200000, 666],[1369173600000, 560],[1369260000000, 483],[1369346400000, 636],[1369432800000, 666],[1369519200000, 607],[1369605600000, 524],[1369692000000, 449],[1369778400000, 614],[1369864800000, 676],[1369951200000, 644],[1370037600000, 498],[1370124000000, 700],[1370210400000, 691],[1370296800000, 627]]	
+			}
+
+		};
+	</script>
+	
+	
+	<!-- Resize Script -->
+	<script src="../common/theme/scripts/plugins/other/jquery.ba-resize.js"></script>
+	
+	<!-- Uniform -->
+	<script src="../common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js"></script>
+	
+	<!-- Bootstrap Script -->
+	<script src="../common/bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Bootstrap Extended -->
+	<script src="../common/bootstrap/extend/bootstrap-select/bootstrap-select.js"></script>
+	<script src="../common/bootstrap/extend/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+	<script src="../common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js"></script>
+	<script src="../common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js" type="text/javascript"></script>
+	<script src="../common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js" type="text/javascript"></script>
+	<script src="../common/bootstrap/extend/bootbox.js" type="text/javascript"></script>
+	<script src="../common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js" type="text/javascript"></script>
+	<script src="../common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js" type="text/javascript"></script>
+	
+	<!-- Layout Options DEMO Script -->
+	<script src="../common/theme/scripts/demo/layout.js"></script>
+	
+	<!-- google-code-prettify -->
+	<script src="../common/theme/scripts/plugins/other/google-code-prettify/prettify.js"></script>
+	
+	<!-- Gritter Notifications Plugin -->
+	<script src="../common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js"></script>
+	
+	<!-- Notyfy -->
+	<script type="text/javascript" src="../common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js"></script>
+	
+</body>
+</html>
